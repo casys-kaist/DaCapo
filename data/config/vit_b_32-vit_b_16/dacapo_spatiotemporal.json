@@ -1,0 +1,47 @@
+{
+    "cl_type": "DACAPO",
+    "task_type": "classification",
+    "seed": 128,
+    "num_classes": 9,
+    "window_time": 120,
+    "fps": 30,
+    "freq": 500,
+    "train_batch_size": 16,
+    "infer_batch_size": 1,
+    "lr": null,
+    "momentum": 0.9,
+    "weight_decay": 0.0001,
+    "num_workers": null,
+    "student_model": "vit_b_32",
+    "student_weight": null,
+    "teacher_model": "vit_b_16",
+    "teacher_weight": null,
+    "device": "cuda:0",
+    "table_path": null,
+    "output_root": null,
+    "total_row": 16,
+    "student_image_size": [
+        224,
+        224
+    ],
+    "teacher_image_size": [
+        224,
+        224
+    ],
+    "data_path": null,
+    "annotation_path": null,
+    "scenario_path": null,
+    "initial_epoch": 0,
+    "initial_sampling_rate": 0.0,
+    "initial_m_I_p1": 0,
+    "initial_f_I_p1": 0,
+    "initial_m_I_p2": 0,
+    "initial_f_I_p2": 0,
+
+    "accuracy_threshold": -5.0,
+    "sample_buffer_capacity": 1080,
+    "min_num_imgs_to_label": 108,
+    "max_num_imgs_to_label": 432,
+    "num_imgs_to_train": 324,
+    "num_imgs_to_valid": 108
+}
