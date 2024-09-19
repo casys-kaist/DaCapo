@@ -9,6 +9,7 @@
 * [3. Summarize experiment result](#3-summarize-experiment-result)
   + [3.1. Run script](#31-run-script)
   + [3.2. Expected summarized result](#31-expected-summarized-result)
+* [4. Citation](#4-citation)
 
 
 #### Tested environment
@@ -129,4 +130,19 @@ These scripts generate summarized results in the ```$SUMMARY_DIR``` directory as
 $SUMMARY_DIR/
 └── end-to-end-accuracy/
     └── end-to-end-accuracy-sheet.csv
+```
+
+## 4. Citation
+
+If DaCapo proves useful or insightful for your research, please cite our paper using the following BibTeX entry:
+
+```
+@inproceedings {10609643,
+author = {Y. Kim and C. Oh and J. Hwang and W. Kim and S. Oh and Y. Lee and H. Sharma and A. Yazdanbakhsh and J. Park},
+title = {DACAPO: Accelerating Continuous Learning in Autonomous Systems for Video Analytics},
+booktitle = {2024 ACM/IEEE 51st Annual International Symposium on Computer Architecture (ISCA)},
+year = {2024},
+pages = {1246-1261},
+doi = {10.1109/ISCA59077.2024.00093}
+}
 ```
